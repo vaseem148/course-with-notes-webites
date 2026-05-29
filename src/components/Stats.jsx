@@ -6,7 +6,7 @@ export default function StatsSection() {
     <section className="bg-neutral-900 py-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center text-white">
 
-        <StatCard
+        <StatCardz
           icon={<Users size={28} />}
           value={500}
           suffix="K+"
